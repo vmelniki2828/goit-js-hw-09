@@ -22,9 +22,9 @@ let timerId;
 startButton.addEventListener("click", () => {
   timerId = setInterval(() => {
       body.style.backgroundColor = getRandomHexColor();
-      startButton.disabled = true;
-      stopButton.disabled = false;
   }, 1000);
+    startButton.disabled = true;
+    stopButton.disabled = false;
     console.log("Починаю роботу");
 });
 
